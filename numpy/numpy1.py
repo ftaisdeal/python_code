@@ -1,11 +1,7 @@
 import numpy as np
 
-array1 = [1, 2, 3, 4]
-array2 = [5, 6, 7, 8]
+np_2d = np.array([[5,  6, 1, 2, 3, 4],
+                  [4,  5, 3, 2, 1, 8],
+                  [9, 10, 3, 7, 6, 5]])
 
-np_array1 = np.array(array1)
-np_array2 = np.array(array2)
-
-bmi = np_array1 / np_array2 ** 2
-
-print(bmi)
+print(np.median(np_2d[0,:]))
