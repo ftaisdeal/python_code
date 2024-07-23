@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-df = pd.read_csv('pandas/data.csv')
+df = pd.read_csv('pandas/data_1.csv')
 
 print(pd.options.display.max_rows) # Show maximum rows setting within Pandas
 

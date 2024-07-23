@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('pandas/data.csv')
+df = pd.read_csv('pandas/data_1.csv')
 
 df["Calories"].fillna(130, inplace = True)
 

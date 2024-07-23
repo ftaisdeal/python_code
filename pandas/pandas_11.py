@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('pandas/data2.csv')
+df = pd.read_csv('pandas/data_2.csv')
 
 new_df = df.dropna()
 
